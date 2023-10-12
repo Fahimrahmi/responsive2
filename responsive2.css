@@ -1,0 +1,205 @@
+*{
+    padding: 0%;
+     margin: 0 0px;
+     box-sizing: border-box;
+  }
+ 
+  body{
+     
+     margin: 0px auto;
+     background-color: #FAFAFA;
+     font-size: 16px;
+     max-width: 1400px;
+  }
+  header{
+     display: flex;
+     justify-content: space-between;
+     padding: 30px 30px;
+     font-weight: 700;
+     background-color: white;
+     align-items: center;
+  }
+
+  .insert{
+    background-image: url(article-image-hero.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    padding-top:350px;
+    padding-left: 50px;
+  }
+
+  .first-photo {
+     width: 100%;
+     height: auto;
+     padding-top: 30px;
+     display: grid;
+     margin: auto;
+    }
+    .purple-photo-detiles{
+       min-height: 393px;
+  }
+  .purple-photo-detiles p{
+    margin: 20px 0;
+  }
+  .purple-photo{
+     width: 100%;
+     height: auto;
+  }
+  .lomp-photo-detiles {
+     min-height: 393px;
+  }
+  .lomp-photo-detiles p{
+    margin: 20px 0;
+  }
+  .lomp-photo{
+     width: 100%;
+     height: auto;
+    }
+  .computer-photo-detiles {
+     min-height: 393px;
+  }
+  .computer-photo-detiles p {
+    margin: 20px 0;
+ }
+ .computer-photo{
+    width: 100%;
+    height: auto;
+ }
+ .pho{
+    width: 100%;
+    height: auto;
+ }
+ .container{
+    display: flex;
+    justify-content: space-around;
+    min-height: 500px;
+ }
+ .sss {
+    margin: 10px 0 ; 
+ }
+ 
+ .semi_container {
+    width: 33.33%;
+    padding: 10px;
+ }
+ .how-and-ilike {
+    top: 864px;
+    left: 121px;
+    padding: 20px;
+    line-height: 2.1rem;
+    text-align:justify;
+    font-size: 1.2rem;
+ }
+  .footar p{
+     line-height: 1.5rem;
+  }
+ 
+  .date{
+    text-align: justify;
+    display: flex;
+  }
+  .after{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 1.5rem;
+ }
+ .photo{
+     width: 21.25px;
+     height: 21.25px;
+ }
+ .mynew-journey {
+     font-size: 2.1rem;
+     margin-bottom: 0;
+     text-align: justify;
+     font-weight: 700;
+     line-height: 2.3rem;
+ }
+ .mynew p{
+    font-weight: 400;
+    line-height: 1.3rem;
+ }
+ .Recent-posts{
+    text-align: center;
+    margin: 30px;
+ }
+ .footar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    color: white;
+    Width:100%;
+    Height:80px;
+  }
+  .journey-bootcamp{
+    padding: 60px;
+  }
+ 
+ @media  ( max-width:650px){
+    header {
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+    }
+    .first-photo {
+       width: 100%;
+       height: auto;
+       margin: 20px 10px;
+    }
+    .container2{   
+       width: 100%;
+       height: auto;
+       font-size: 1.2rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       margin-top: 0px;
+       padding: 10px 0;
+    }
+    .container{
+       flex-direction: column;
+    }
+    .semi_container{
+       width: 100%;
+       padding-top: 20px;
+    }
+   
+    .mynew-journey {
+       font-size: 2rem;
+       width: 100%;
+       height: auto;
+    }
+ 
+    .how-and-ilike{
+       font-size: 1.1rem;
+       width: 100%;
+       line-height: 1.5rem;
+    }
+    .journey-bootcamp{
+       font-size: .6rem;
+       width: 100%;
+       line-height: 1.rem;
+       padding: 10px;
+    }
+    .mynew-journey{
+       width: 100%;
+    }
+    .insert{
+        width: 100%;
+        height: auto;
+        top: 40px;
+        text-align: start;
+    }
+    .htwo{
+        padding: 20px 0px;
+    }
+ }
